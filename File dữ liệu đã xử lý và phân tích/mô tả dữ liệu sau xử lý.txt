@@ -1,0 +1,39 @@
+File rfm.csv
+
+customerid: Mã khách hàng
+recency: Ngày gần nhất khác hàng mua vé xem phim
+frequency: Số lần khách hàng mua vé xem phim
+monetary: Số tiền khách hàng chi cho đơn hàng
+r_score: Điểm recency trên thang 3
+f_score: Điểm frequency trên thang 3
+m_score: Điểm monetary trên thang 3
+rfm_cell: Tổng hợp điểm r, f, m score
+rfm_score: Tổng của 3 điểm r, f, m score
+
+===============================================
+
+File sentiment_customer.csv
+
+comment: comment của khách hàng
+time: Thời gian comment
+rating: số sao khách hàng đánh giá
+setiment: Độ hài lòng
+
+
+===============================================
+
+File data_final.xlsx
+
+Các trường giống file data BTC, nhưng đã được xử lý
+
+===============================================
+
+File customer_new.xlsx
+
+Các trường giống bảng customer của BTC nhưng đã được chuẩn hóa địa chỉ ở trường "add" và thêm năm sinh ở trường "YOB"
+
+===============================================
+
+File category.xlsx
+
+Tách từ trường "listed_in" của bảng film (BTC cho) và xử lý lại để đưa vào dashboard.
